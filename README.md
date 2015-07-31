@@ -8,7 +8,7 @@ Installation - Atom
 --------------------------
 1. Go to Atom -> Preferences...
 2. Then select the Themes tab
-3. Enter VS2015-dark in the search box
+3. Enter Visual-Studio-2015-Dark-Theme in the search box
 
 Issues
 ------
