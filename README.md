@@ -12,8 +12,8 @@ Installation - Atom
 
 Issues
 ------
-If you find anything else wrong, feel free to [let me know](https://github.com/Nidre/Atom-VS2015-Dark/issues/new).
+If you find anything else wrong, feel free to [let me know](https://github.com/Nidre/VS2015-Dark-Atom/issues/new).
 
-Screenshot - Atom
+Screenshot
 ----------
-![Screenshot](https://github.com/Nidre/VS2015-Dark-Atom/blob/master/Atom/screenshot.png "Screenshot")
+![Screenshot](https://github.com/Nidre/VS2015-Dark-Atom/blob/master/screenshot.png "Screenshot")
