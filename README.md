@@ -4,7 +4,7 @@
 
 This is as close as I can get to a replica of the Visual Studio 2015's Dark theme in Atom.
 
-Installation - Atom
+Installation
 --------------------------
 1. Go to Atom -> Preferences...
 2. Then select the Themes tab
