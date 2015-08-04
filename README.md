@@ -1,7 +1,7 @@
 # VS2015 Dark Theme for Atom
 
 - [Notepad++ Version](https://github.com/Nidre/VS2015-Dark-Npp/)
-- [Android Studio/IntelliJ Version](https://github.com/Nidre/VS2015-Dark-Android-Studio/)
+- [Android Studio / IntelliJ Version](https://github.com/Nidre/VS2015-Dark-Android-Studio/)
 
 This is as close as I can get to a replica of the Visual Studio 2015's Dark theme in Atom.
 
