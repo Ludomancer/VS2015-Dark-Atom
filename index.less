@@ -1,22 +1,40 @@
 atom-text-editor, :host {
-  background-color: #22282A;
-  color: #C8C8C8;
+  background-color: #1E1E1E;
+  color: #DCDCDC;
 
 
    .cursor {
-    border-color: #AEAFAD;
+    border-color: #DCDCDC;
   }
 
   .selection .region {
-    background-color: #4F6164;
+    background-color: #264F78;
   }
 
-   .line-number.cursor-line-no-selection, .line.cursor-line {
-    background-color: #42464C;
+  .line-number.cursor-line-no-selection,
+  {
+    background-color: #0F0F0F;
+  }
+
+  .line.cursor-line
+  {
+    background-color: #0F0F0F;
+    border-color: #282828;
+    border-width: 3px;
+    border-style: solid;
+    margin:-3px;
+  }
+
+  .line-number{
+    color: #2B91AF;
+  }
+
+  .indent-guide{
+    color: #165060;
   }
 
   .comment {
-    color: #66747B;
+    color: #57A64A;
   }
 
   .keyword.operator.js, .entity.name.tag, .constant.other, .source.php.embedded.line, .variable.parameter, .meta.tag, .declaration.tag {
@@ -24,15 +42,15 @@ atom-text-editor, :host {
   }
 
   .variable, .support.other.variable, .string.other.link, .entity.name.tag, .entity.name.filename.find-in-files {
-    color: #93C763;
+    color: #559CD6;
   }
 
   .string.regexp, .meta.link {
-    color: #81A2BE;
+    color: #D69D85;
   }
 
   .constant.numeric, .support.constant, .punctuation.section.embedded, .keyword.other.unit, .constant.character.escape {
-    color: #FFCD22;
+    color: #B5B56E;
   }
 
   .entity.name.class, .entity.name.type.class, .support.type, .support.class {
@@ -40,7 +58,7 @@ atom-text-editor, :host {
   }
 
   .string, .constant.other.symbol, .constant.character, .entity.other.inherited-class, .markup.heading, .constant.numeric.line-number.match.find-in-files {
-    color: #EC7600;
+    color: #D69D85;
   }
 
   .entity.name.tag.localname, .entity.name.type.class {
@@ -48,7 +66,7 @@ atom-text-editor, :host {
   }
 
   .keyword, .storage, .entity.name.tag.css, .constant.language, .keyword.operator {
-    color: #93C763;
+    color: #559CD6;
   }
 
   .invalid {
@@ -66,7 +84,7 @@ atom-text-editor, :host {
     background-color: #a082bd;
   }
 
-  .invisible-character, .indent-guide {
-    color: #66747B;
+  .invisible-character {
+    color: #2B91AF;
   }
 }
