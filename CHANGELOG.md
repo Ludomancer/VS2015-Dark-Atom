@@ -1,3 +1,4 @@
+## 2.2.0 - Actual release. 
 ## 2.1.0 - Version bump and release.
 ## 2.0.1 - Fix cursor offset
 * The cursor was offset to the right of its actual position due to the left margin having a thickness.
