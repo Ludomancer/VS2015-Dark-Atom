@@ -1,3 +1,5 @@
+## 2.3.1 - Bug Fix
+* Color correction.
 ## 2.3.0 - Bug Fix
 * The line selecting was hacing extra margin if more than a single line was selected.
 ## 2.2.0 - Actual release. 
