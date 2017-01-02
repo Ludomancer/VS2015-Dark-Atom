@@ -16,7 +16,13 @@ atom-text-editor, :host {
     background-color: #0F0F0F;
   }
 
+  .meta.directive {
+    color: #9B9B9B;
 
+    .name {
+      color: #DCDCDC;
+    }
+  }
 
   .line.cursor-line
   {
@@ -41,7 +47,7 @@ atom-text-editor, :host {
     color: #F1F2F3;
   }
 
-  .variable, .support.other.variable, .string.other.link, .entity.name.tag, .entity.name.filename.find-in-files {
+  .support.other.variable, .string.other.link, .entity.name.tag, .entity.name.filename.find-in-files {
     color: #569CD6;
   }
 
@@ -49,8 +55,8 @@ atom-text-editor, :host {
     color: #D69D85;
   }
 
-  .constant.numeric, .support.constant, .punctuation.section.embedded, .keyword.other.unit, .constant.character.escape {
-    color: #B5B56E;
+  .constant.numeric, .support.constant, .punctuation.section.embedded, .keyword.other.unit, .entity.name.interface, .meta.generic.type.specifier > .entity.name  {
+    color: #B8D7A3;
   }
 
   .entity.name.class, .entity.name.type.class, .support.type, .support.class {
@@ -86,5 +92,25 @@ atom-text-editor, :host {
 
   .invisible-character {
     color: #2B91AF;
+  }
+
+  .markup.underline {
+    text-decoration: underline;
+  }
+
+  .markup.hyperlink {
+    color: #569AD6;
+  }
+
+  .comment.block.documentation {
+    color: #608B4E;
+
+    .meta.tag.xml, .punctuation.tag, .localname.xml {
+      color: #608B4E;
+    }
+
+    .entity.attribute-name, .string.quoted.double.xml, .punctuation.definition.string.xml {
+      color: #DCDCDC;
+    }
   }
 }
