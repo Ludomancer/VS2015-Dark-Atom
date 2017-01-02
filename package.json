@@ -1,7 +1,7 @@
 {
   "name": "Visual-Studio-2015-Dark-Theme",
   "theme": "syntax",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "This is as close as I can get to a replica of the Visual Studio 2015's Dark theme in Atom.",
   "keywords": [
     "syntax",
