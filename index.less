@@ -1,9 +1,8 @@
-atom-text-editor, :host {
+atom-text-editor {
   background-color: #1E1E1E;
   color: #DCDCDC;
 
-
-   .cursor {
+  .cursor {
     border-color: #DCDCDC;
   }
 
@@ -11,81 +10,79 @@ atom-text-editor, :host {
     background-color: #264F78;
   }
 
-  .line-number.cursor-line-no-selection
-  {
+  .line-number.cursor-line-no-selection {
     background-color: #0F0F0F;
   }
 
-  .meta.directive {
+  .syntax--meta.syntax--directive {
     color: #9B9B9B;
 
-    .name {
+    .syntax--name {
       color: #DCDCDC;
     }
   }
 
-  .line.cursor-line
-  {
+  .line.cursor-line {
     box-sizing:border-box;
     background-color: #0F0F0F;
     box-shadow: inset 0 0 0 2px #282828;
   }
 
-  .line-number{
+  .line-number {
     color: #2B91AF;
   }
 
-  .indent-guide{
+  .indent-guide {
     color: #165060;
   }
 
-  .comment {
+  .syntax--comment {
     color: #57A64A;
   }
 
-  .keyword.operator.js, .entity.name.tag, .constant.other, .source.php.embedded.line, .variable.parameter, .meta.tag, .declaration.tag {
+  .syntax--keyword.syntax--operator.syntax--js, .syntax--entity.syntax--name.syntax--tag, .syntax--constant.syntax--other, .syntax--source.syntax--php.syntax--embedded.line, .syntax--variable.syntax--parameter, .syntax--meta.syntax--tag,  .syntax--declaration.syntax--tag {
     color: #F1F2F3;
   }
 
-  .support.other.variable, .string.other.link, .entity.name.tag, .entity.name.filename.find-in-files {
+  .syntax--support.syntax--other.syntax--variable, .syntax--string.syntax--other.syntax--link, .syntax--entity.syntax--name.syntax--tag, .syntax--entity.syntax--name.syntax--filename.syntax--find-in-files {
     color: #569CD6;
   }
 
-  .string.regexp, .meta.link {
+  .syntax--string.syntax--regexp, .syntax--meta.syntax--link {
     color: #D69D85;
   }
 
-  .constant.numeric, .support.constant, .punctuation.section.embedded, .keyword.other.unit, .entity.name.interface, .meta.generic.type.specifier > .entity.name  {
+  .syntax--constant.syntax--numeric, .syntax--support.syntax--constant, .syntax--punctuation.syntax--section.syntax--embedded, .syntax--keyword.syntax--other.syntax--unit, .syntax--entity.syntax--name.syntax--interface, .syntax--meta.syntax--generic.syntax--type.syntax--specifier > .syntax--entity.syntax--name {
     color: #B8D7A3;
   }
 
-  .entity.name.class, .entity.name.type.class, .support.type, .support.class {
+  .syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class, .syntax--support.syntax--type,  .syntax--support.syntax--class {
     color: #4EC9B0;
   }
 
-  .string, .constant.other.symbol, .constant.character, .entity.other.inherited-class, .markup.heading, .constant.numeric.line-number.match.find-in-files {
+  .syntax--string, .syntax--constant.syntax--other.syntax--symbol, .syntax--constant.syntax--character, .syntax--entity.syntax--other.syntax--inherited-class, .syntax--markup.syntax--heading, .syntax--constant.syntax--numeric.line-number.syntax--match.syntax--find-in-files {
     color: #D69D85;
   }
 
-  .entity.name.tag.localname, .entity.name.type.class {
+  .syntax--entity.syntax--name.syntax--tag.syntax--localname, .syntax--entity.syntax--name.syntax--type.syntax--class {
     color: #4EC9B0;
   }
 
-  .keyword, .storage, .entity.name.tag.css, .constant.language, .keyword.operator {
+  .syntax--keyword, .syntax--storage,.syntax--entity.syntax--name.syntax--tag.syntax--css, .syntax--constant.syntax--language, .syntax--keyword.syntax--operator {
     color: #569CD6;
   }
 
-  .invalid {
+  .syntax--invalid {
     color: #ffffff;
     background-color: #963a46;
   }
 
-  .meta.separator {
+  .syntax--meta.syntax--separator {
     color: #ffffff;
     background-color: #82A3BF;
   }
 
-  .invalid.deprecated {
+  .syntax--invalid.syntax--deprecated {
     color: #ffffff;
     background-color: #a082bd;
   }
@@ -94,22 +91,22 @@ atom-text-editor, :host {
     color: #2B91AF;
   }
 
-  .markup.underline {
+  .syntax--markup.syntax--underline {
     text-decoration: underline;
   }
 
-  .markup.hyperlink {
+  .syntax--markup.syntax--hyperlink {
     color: #569AD6;
   }
 
-  .comment.block.documentation {
+  .syntax--comment.syntax--block.syntax--documentation {
     color: #608B4E;
 
-    .meta.tag.xml, .punctuation.tag, .localname.xml {
+    .syntax--meta.syntax--tag.syntax--xml, .syntax--punctuation.syntax--tag, .syntax--localname.syntax--xml {
       color: #608B4E;
     }
 
-    .entity.attribute-name, .string.quoted.double.xml, .punctuation.definition.string.xml {
+    .syntax--entity.syntax--attribute-name, .syntax--string.syntax--quoted.syntax--double.syntax--xml, .syntax--punctuation.syntax--definition.syntax--string.syntax--xml {
       color: #DCDCDC;
     }
   }
