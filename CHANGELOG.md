@@ -1,3 +1,5 @@
+## 2.4.2 - Changelog style and typo fixes.
+
 ## 2.4.1 - Changing deprecated classes to the new editor's classes (Thx to hdias2310)
 
 ## 2.4.0 - Improvements
